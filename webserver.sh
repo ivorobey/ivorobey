@@ -1,0 +1,1 @@
+while true; do { echo -e 'HTTP/1.1 200 OK\r\n'; bash $1; } | nc -l $2; done
